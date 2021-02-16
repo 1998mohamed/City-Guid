@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --mainDark: #343a40;
+    --mainGray: rgba(109,109,109);
+    --mainLightGray: rgba(172,172,172);
+    --mainWhite: #fff;
+    --mainBlue: #007bff;
+}
+
+/******************** NAVBAR ****************/
+.navbar
+{
+  margin-bottom: 20px;;
+}
+.form-control
+{
+  padding: 0%;
+  margin-left: 180px;
+}
+.navbar-brand
+{
+  padding-right: 165px;;
+}
+.nav-link.home
+{
+  margin-left: 80px;
+  padding: 0%;
+  font-size: small;
+  text-align: center;
+}
+.nav-link.news
+{
+  margin-left: 100px;
+  padding: 0%;
+  font-size: small;
+  text-align: center;
+}
+.nav-link.contact
+{
+  margin-left: 100px;
+  padding: 0%;
+  font-size: small;
+  text-align: center;
+}
+/**************    FOOTER    *****************/
+
+.footer-middle
+{
+  background: var(--mainDark);
+  padding-top: 3rem;
+  color: var(--mainWhite);
+}
+.footer-bottom
+{
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+ul li a {
+  color: var(--mainGray);
+}
+
+.container-fluid.align-items-center
+{
+  background: linear-gradient(rgba(109,109,109), rgba(255,255,255));
+  height: 60vh;
+  text-transform: uppercase;  
+  text-align: center;
+}
+.container-fluid.align-items-center h1 {
+  padding-top: 10%;
+  color: var(--mainDark);
+}
+.container-fluid.align-items-center h4 {
+  color: var(--mainDark);
+}
+.container-fluid.align-items-center p {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 6%;
+  color: var(--mainDark);
+}
+.container-fluid.align-items-center i {
+  font-size: 1.875rem;
+  color: var(--mainDark);
+}
+.container-fluid.align-items-center i:hover {
+  color: var(--mainBlue);
+  cursor: pointer;
+} 
+@media(max-width: 760px){
+  h1,h4 {
+    color: var(--mainWhite);
+  }
+}
+.form-contact
+{
+
+  margin-top: 10px;
+}
+.contact-text
+{
+  margin-left: 50%;
+}
+.btn.btn-outline-primary.text-uppercase
+{
+  margin-top: 5px;
+  margin-left: 51%;
+}
+.error-template
+{
+  padding: 40px 15px;
+  text-align: center;
+}
+.error-action
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btn.error
+{
+  margin-right: 10px;
+}
